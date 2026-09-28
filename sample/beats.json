@@ -1,0 +1,17 @@
+{
+  "budget": 2,
+  "limit": 5,
+  "bad_target_code": "E_BAD_TARGET",
+  "bad_time_code": "E_BAD_TIME",
+  "no_sample_code": "E_NO_SAMPLE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "samples": [], "stale": [], "covers": 0, "asks": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "beat", "target": "a", "born": 0, "seen": 3 },
+    { "id": 2, "kind": "beat", "target": "b", "born": 0, "seen": 9 },
+    { "id": 3, "kind": "beat", "target": "a", "born": 0, "seen": 1 },
+    { "id": 4, "kind": "ask", "target": "a" },
+    { "id": 5, "kind": "beat", "target": "c", "born": 0, "seen": 20 },
+    { "id": 6, "kind": "ask", "target": "c" }
+  ]
+}
